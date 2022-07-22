@@ -692,11 +692,6 @@ html {
   line-height: 1.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -720,7 +715,7 @@ html {
 }
 
 .profile-photo{
-  background-image: url("../src/assets/photo.jpg");
+  background-image: url("./assets/photo.jpg");
   background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
@@ -734,14 +729,5 @@ html {
 }
 
 .hover\:decoration-2:hover {
-  text-decoration-thickness: 2px;
-}
-
-.focus\:underline:focus {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
-.focus\:decoration-2:focus {
   text-decoration-thickness: 2px;
 }

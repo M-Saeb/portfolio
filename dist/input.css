@@ -10,7 +10,7 @@
 }
 
 .profile-photo{
-	background-image: url("../src/assets/photo.jpg");
+	background-image: url("./assets/photo.jpg");
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; 
