@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../dist/output.css" rel="stylesheet">
+  <link href="./tailwind.css" rel="stylesheet">
   <title>M-Saeb</title>
 </head>
 <body>
@@ -11,21 +11,21 @@
     <div id="header" class="flex flex-row w-full h-16 border-b-2 border-black ">
       <div class="flex flex-col w-3/12 p-2 border-r-2 border-black">
         <p class="text-xl font-bold">Mohammed Saeb Portfolio</p>
-        <p>Senior Developer</p>
+        <p>Web Developer</p>
       </div>
       <div class="flex flex-row justify-between w-9/12">
         <div class="flex flex-row items-center ">
-          <div class="ml-10 font-semibold underline decoration-2">Home</div>
-          <div class="ml-10 font-semibold">All Projects</div>
-          <div class="ml-10 font-semibold">C.V.</div>
-          <div class="ml-10 font-semibold">Blogs</div>
+          <a href="#" class="ml-10 font-semibold underline hover:underline hover:decoration-2 decoration-2">Home</a>
+          <a href="#" class="ml-10 font-semibold hover:underline hover:decoration-2">All Projects</a>
+          <a href="./assets/cv.pdf" target="_blank" class="ml-10 font-semibold hover:underline hover:decoration-2">C.V.</a>
+          <a href="#" class="ml-10 font-semibold hover:underline hover:decoration-2">Blogs</a>
         </div>
         <div class="flex flex-row items-center">
-          <a href="#" class="w-8 h-8 mr-10">
+          <a href="https://www.linkedin.com/in/mohammed-saeb/" target="_blank" class="w-8 h-8 mr-10">
             <img src="./assets/linkedin-logo.png" alt="Linkedin Logo">
           </a>
-          <a href="#" class="w-8 h-8 mr-10">
-            <img  src="./assets/github-logo.png" alt="Linkedin Logo">
+          <a href="https://github.com/M-Saeb" target="_blank" class="w-8 h-8 mr-10">
+            <img  src="./assets/github-logo.png" alt="Github Logo">
           </a>
           <a href="#" class="mr-10 font-semibold">Me@m-saeb.com</a>
         </div>
@@ -57,7 +57,7 @@
       </div>
     </div>
     <div id="my-project-header" class="flex items-center w-full h-16 border-b-2 border-black">
-      <p class="pl-4 text-2xl font-semibold">
+      <p class="pl-4 text-xl font-semibold">
         My Projects
       </p>
     </div>
